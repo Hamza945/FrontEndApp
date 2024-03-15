@@ -1,0 +1,35 @@
+"use client";
+
+import { StaggeringAnimatedText } from "@/app/components/stagerring-animated-text";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { Button } from "@/app/components/button";
+
+export const GetStarted = () => {
+  return (
+    <section className="flex flex-col items-center justify-center gap-10 my-20">
+      <motion.div
+        initial={{ scale: 1.6 }}
+        whileInView={{ scale: 1 }}
+        transition={{ duration: 0.6 }}
+        className="relative bg-moniepoint-orange rounded-[35px] shadow-lg shadow-[#fe4a229a] h-[95px] w-[95px] flex justify-center items-center"
+      >
+        <Image alt="chain" src="/images/chain.png" width={45} height={0} objectFit="cover" />
+      </motion.div>
+      <h2>
+        <StaggeringAnimatedText
+          className="text-moniepoint-black  text-[85px] leading-[70px]"
+          text="Get Started"
+        />
+      </h2>
+      <p className="text-[#999999] my-1 text-center">
+        Turn information into advantage! Start using <br />
+        ramos today. Sign up for a free trial.
+      </p>
+      <div className="flex items-center gap-2">
+        <Button variant="secondary">Request a demo</Button>
+        <Button variant="primary">Start for Free</Button>
+      </div>
+    </section>
+  );
+};
