@@ -26,7 +26,7 @@ export const Navbar = () => {
         transition={{ duration: 0.7 }}
         className="flex gap-1 items-center"
       >
-        <Image alt="logo" src="/images/brand-icon.png" width={25} height={25} />
+        <Image alt="logo" src="./images/brand-icon.png" width={25} height={25} />
         <p className="font-bold text-white text-lg">ramos</p>
       </motion.div>
       <motion.ul
