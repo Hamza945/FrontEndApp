@@ -9,7 +9,7 @@ export const MonitoringIndicators = () => {
       <div className="text-left">
         <div className="flex items-center justify-start">
           <div className="bg-moniepoint-grey  rounded-full mr-[9px] w-5 h-5 flex justify-center items-center">
-            <Image alt="user-connecting" src="/images/insight-icon.png" width={38} height={0} />
+            <Image alt="user-connecting" src="./images/insight-icon.png" width={38} height={0} />
           </div>
           <p className="text-xs"> Insights</p>
         </div>
@@ -36,7 +36,7 @@ const BarChart = () => {
       >
         <Image
           alt="user-connecting"
-          src="/images/graph-line.png"
+          src="./images/graph-line.png"
           width={150}
           height={100}
           objectFit="contain"

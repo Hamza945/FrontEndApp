@@ -41,7 +41,7 @@ export const DataControl = () => {
                   <div className="bg-moniepoint-grey  rounded-full mr-[9px] w-5 h-5 flex justify-center items-center">
                     <Image
                       alt="user-connecting"
-                      src="/images/finance-icon.png"
+                      src="./images/finance-icon.png"
                       width={38}
                       height={0}
                       className="relative left-[-1px]"

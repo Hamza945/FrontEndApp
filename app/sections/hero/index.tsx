@@ -31,10 +31,10 @@ export const Hero = () => {
               <div className="flex flex-col  mr-6">
                 <div className="flex items-center self-end">
                   <AnimatedIcon className="inline-flex h-[100px] w-[100px] bg-moniepoint-grey rounded-full justify-center items-center relative left-4">
-                    <Image alt="orange" src="/images/grey-icon.png" width={55} height={55} />
+                    <Image alt="orange" src="./images/grey-icon.png" width={55} height={55} />
                   </AnimatedIcon>
                   <AnimatedIcon className="inline-flex h-[100px] w-[100px] bg-moniepoint-orange rounded-full justify-center items-center">
-                    <Image alt="orange" src="/images/orange-icon.png" width={70} height={70} />
+                    <Image alt="orange" src="./images/orange-icon.png" width={70} height={70} />
                   </AnimatedIcon>
 
                   <StaggeringAnimatedText text={"Analytics"} />
@@ -52,7 +52,7 @@ export const Hero = () => {
                   transition={{ duration: 0.6, delay: 0.4 }}
                   className="absolute -top-[20px] z-10 -left-[20px] inline-flex rounded-full bg-moniepoint-orange justify-center items-center w-[50px] h-[50px]"
                 >
-                  <Image alt="yellow" src="/images/play-icon.png" width={30} height={30} />
+                  <Image alt="yellow" src="./images/play-icon.png" width={30} height={30} />
                 </motion.span>
                 <motion.span
                   initial={{ opacity: 0, scale: 0 }}
@@ -61,14 +61,14 @@ export const Hero = () => {
                   className="relative inline-block"
                 >
                   <span className="absolute top-0 left-0 h-[50px] w-[50px] bg-[#F2F4F5]" />
-                  <Image alt="orange" src="/images/small-laptop.png" width={400} height={400} />
+                  <Image alt="orange" src="./images/small-laptop.png" width={400} height={400} />
                 </motion.span>
               </div>
             </div>
             <div className="flex justify-end items-center">
               <StaggeringAnimatedText text={"shape"} />
               <AnimatedIcon className="inline-flex h-[100px] w-[100px] bg-[#FFD026] rounded-full justify-center items-center mx-6 ml-1">
-                <Image alt="yellow" src="/images/yellow.png" width={60} height={60} />
+                <Image alt="yellow" src="./images/yellow.png" width={60} height={60} />
               </AnimatedIcon>
               <StaggeringAnimatedText text={"the future"} />
             </div>

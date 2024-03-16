@@ -11,7 +11,7 @@ export const LiveUpdateMeter = ({ size = "large" }: { size?: "small" | "large" }
       <div className={`rounded-full ${sizes[size]} bg-[#48C884] flex justify-center items-center`}>
         <Image
           alt="graph"
-          src="/images/arrow-up.png"
+          src="./images/arrow-up.png"
           width={size === "small" ? 6 : 11}
           height={0}
           objectFit="cover"

@@ -33,14 +33,14 @@ export const WidgetControl = () => {
           >
             <Image
               alt="user-connecting"
-              src="/images/user-connecting-icon.png"
+              src="./images/user-connecting-icon.png"
               width={35}
               height={0}
             />
             <Image
               alt="user-connecting"
               className="mt-3"
-              src="/images/users.png"
+              src="./images/users.png"
               width={80}
               height={0}
             />

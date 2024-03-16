@@ -49,7 +49,7 @@ export const DevicesDashboard = () => {
             >
               <Image
                 alt="laptop"
-                src="/images/phone.png"
+                src="./images/phone.png"
                 width={290}
                 height={0}
                 className="relative left-[100px] top-0"
@@ -62,12 +62,12 @@ export const DevicesDashboard = () => {
               transition={{ duration: 0.6 }}
               className="relative h-[700px] w-[700px]"
             >
-              <Image alt="laptop" src="/images/laptop.png" fill className="relative" />
+              <Image alt="laptop" src="./images/laptop.png" fill className="relative" />
               <div className="absolute -left-[22px] top-[33px] h-[635px] w-[900px] ">
                 <div className="absolute h-[19px] w-[19px] bg-white top-0 left-[50px] z-20 " />
                 <Image
                   alt="laptop"
-                  src="/images/dashboard.png"
+                  src="./images/dashboard.png"
                   fill
                   objectFit="contain"
                   className="absolute left-[50px] top-0 rounded-3xl"

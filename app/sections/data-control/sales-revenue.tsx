@@ -32,14 +32,14 @@ export const SalesRevenue = () => {
       <div className="flex flex-col w-full">
         <div className="flex justify-between items-center gap-10">
           <div className="flex justify-center items-center gap-1 relative -left-[5px]">
-            <Image alt="user-female" src="/images/female-user.png" width={40} height={20} />
+            <Image alt="user-female" src="./images/female-user.png" width={40} height={20} />
             <p className="text-moniepoint-grey-100 text-[10px]">Min. Price</p>
           </div>
           <p className="text-moniepoint-black text-[10px]">1,200 $</p>
         </div>
         <div className="flex justify-between items-center gap-10">
           <div className="flex justify-center items-center gap-1 relative -left-[5px]">
-            <Image alt="user-female" src="/images/male-user.png" width={40} height={20} />
+            <Image alt="user-female" src="./images/male-user.png" width={40} height={20} />
             <p className="text-moniepoint-grey-100 text-[10px]">Max. Price</p>
           </div>
           <p className="text-moniepoint-black text-[10px]">2,320 $</p>

@@ -14,7 +14,7 @@ export const GetStarted = () => {
         transition={{ duration: 0.6 }}
         className="relative bg-moniepoint-orange rounded-[35px] shadow-lg shadow-[#fe4a229a] h-[95px] w-[95px] flex justify-center items-center"
       >
-        <Image alt="chain" src="/images/chain.png" width={45} height={0} objectFit="cover" />
+        <Image alt="chain" src="./images/chain.png" width={45} height={0} objectFit="cover" />
       </motion.div>
       <h2>
         <StaggeringAnimatedText

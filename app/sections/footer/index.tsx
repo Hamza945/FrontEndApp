@@ -52,7 +52,7 @@ export const Footer = () => {
             <p className="text-moniepoint-grey-100 text-[13px] font-light">Privacy policy</p>
             <p className="text-moniepoint-grey-100 text-[13px] font-light">License agreement</p>
             <div className="bg-white rounded-2xl p-1">
-              <Image alt="bar-code" src="/images/barcode.png" width={100} height={0} />
+              <Image alt="bar-code" src="./images/barcode.png" width={100} height={0} />
             </div>
           </div>
         </Reveal>

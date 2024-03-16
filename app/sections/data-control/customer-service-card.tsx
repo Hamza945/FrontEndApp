@@ -25,7 +25,7 @@ export const CustomerServiceCard = () => {
         <div className="h-[22px] w-[22px] p-[2px] absolute -top-[8px] -left-[8px] border rounded-full bg-moniepoint-grey flex justify-center items-center">
           <Image
             alt="user-connecting"
-            src="/images/chain-rain.png"
+            src="./images/chain-rain.png"
             width={15}
             height={0}
             className="rounded-full"

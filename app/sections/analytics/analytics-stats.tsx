@@ -34,7 +34,7 @@ export const AnalyticsStats = () => {
             >
               <Image
                 alt="user-connecting"
-                src="/images/connecting-orange.png"
+                src="./images/connecting-orange.png"
                 width={25}
                 height={0}
               />
@@ -62,11 +62,11 @@ export const AnalyticsStats = () => {
           </div>
         </div>
         <div className="relative">
-          <Image alt="graph" src="/images/graph.png" width={270} height={0} objectFit="cover" />
+          <Image alt="graph" src="./images/graph.png" width={270} height={0} objectFit="cover" />
           <div className="px-[15px] py-[5px] flex flex-col justify-between absolute bottom-[16px] right-[19px] h-[64px] w-[100px] rounded-2xl bg-moniepoint-orange">
             <div className="flex justify-between items-center">
               <p className="text-white text-[10px]">Rate</p>
-              <Image alt="bar-code" src="/images/pentagon.png" width={18} height={0} />
+              <Image alt="bar-code" src="./images/pentagon.png" width={18} height={0} />
             </div>
             <AnimatedCounter
               from={10}
